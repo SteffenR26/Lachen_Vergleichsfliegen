@@ -1,27 +1,21 @@
-<Task type="AAT" task_scored="0" aat_min_time="5400" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+<Task type="AAT" task_scored="0" aat_min_time="7200" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
 	<Point type="Start">
-		<Waypoint altitude="546" name="008 AP Weinbiet">
-			<Location latitude="49.376117" longitude="8.121117"/>
+		<Waypoint altitude="371" name="005 AP Hambacher Schloss">
+			<Location latitude="49.324717" longitude="8.118333"/>
 		</Waypoint>
-                <ObservationZone type="Line" length="20000.0"/>
-	</Point>
-	<Point type="Area">
-		<Waypoint altitude="426" name="073 Kirn">
-			<Location latitude="49.77445" longitude="7.518883"/>
-		</Waypoint>
-	    <ObservationZone type="Cylinder" radius="30000.0"/>
+		<ObservationZone type="Line" length="20000.0"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="238" name="058 Hauenstein">
-			<Location latitude="49.195" longitude="7.850283"/>
+		<Waypoint altitude="682" name="037 Donnersberg">
+			<Location latitude="49.62445" longitude="7.923617"/>
 		</Waypoint>
 	    <ObservationZone type="Cylinder" radius="20000.0"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="100" name="094 Motodrom">
-			<Location latitude="49.32805" longitude="8.568617"/>
+		<Waypoint altitude="157" name="035 Degmarn">
+			<Location latitude="49.258617" longitude="9.277217"/>
 		</Waypoint>
-	    <ObservationZone type="Cylinder" radius="15000.0"/>
+	    <ObservationZone type="Cylinder" radius="30000.0"/>
 	</Point>
 	<Point type="Finish">
 		<Waypoint altitude="119" name="140 Lachen-Speyerdorf">
