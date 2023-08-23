@@ -1,21 +1,27 @@
 <Task type="AAT" task_scored="0" aat_min_time="7200" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
 	<Point type="Start">
-		<Waypoint altitude="123" name="007 AP Musenhof">
-			<Location latitude="49.40805" longitude="8.1875"/>
+		<Waypoint altitude="119" name="140 Lachen-Speyerdorf">
+			<Location latitude="49.330283" longitude="8.211667"/>
 		</Waypoint>
                 <ObservationZone type="Line" length="20000.0"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="403" name="130 Wallduern">
-			<Location latitude="49.581667" longitude="9.402217"/>
+		<Waypoint altitude="156" name="121 Sinsheim">
+			<Location latitude="49.247217" longitude="8.893617"/>
 		</Waypoint>
-	    <ObservationZone type="Cylinder" radius="45000.0"/>
+	    <ObservationZone type="Cylinder" radius="10000.0"/>
 	</Point>
 	<Point type="Turn">
-		<Waypoint altitude="115" name="030 Bruchsal">
-			<Location latitude="49.14" longitude="8.555"/>
+		<Waypoint altitude="158" name="079 LandauEbenberg">
+			<Location latitude="49.176383" longitude="8.136117"/>
 		</Waypoint>
-	    <ObservationZone type="Cylinder" radius="20000.0"/>
+	    <ObservationZone type="Cylinder" radius="10000.0"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="164" name="052 Gruenstadt">
+			<Location latitude="49.55195" longitude="8.18695"/>
+		</Waypoint>
+	    <ObservationZone type="Cylinder" radius="10000.0"/>
 	</Point>
 	<Point type="Finish">
 		<Waypoint altitude="119" name="140 Lachen-Speyerdorf">
