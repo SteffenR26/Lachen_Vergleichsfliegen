@@ -1,27 +1,21 @@
-<Task type="AAT" task_scored="0" aat_min_time="7200" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+<Task type="AAT" task_scored="0" aat_min_time="5400" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
 	<Point type="Start">
-		<Waypoint altitude="119" name="140 Lachen-Speyerdorf">
-			<Location latitude="49.330283" longitude="8.211667"/>
+		<Waypoint altitude="371" name="005 AP Hambacher Schloss">
+			<Location latitude="49.324717" longitude="8.118333"/>
 		</Waypoint>
-                <ObservationZone type="Line" length="20000.0"/>
+		<ObservationZone type="Line" length="20000.0"/>
+	</Point>
+	<Point type="Turn">
+		<Waypoint altitude="682" name="037 Donnersberg">
+			<Location latitude="49.62445" longitude="7.923617"/>
+		</Waypoint>
+	    <ObservationZone type="Cylinder" radius="15000.0"/>
 	</Point>
 	<Point type="Turn">
 		<Waypoint altitude="156" name="121 Sinsheim">
 			<Location latitude="49.247217" longitude="8.893617"/>
 		</Waypoint>
-	    <ObservationZone type="Cylinder" radius="10000.0"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="158" name="079 LandauEbenberg">
-			<Location latitude="49.176383" longitude="8.136117"/>
-		</Waypoint>
-	    <ObservationZone type="Cylinder" radius="10000.0"/>
-	</Point>
-	<Point type="Turn">
-		<Waypoint altitude="164" name="052 Gruenstadt">
-			<Location latitude="49.55195" longitude="8.18695"/>
-		</Waypoint>
-	    <ObservationZone type="Cylinder" radius="10000.0"/>
+	    <ObservationZone type="Cylinder" radius="20000.0"/>
 	</Point>
 	<Point type="Finish">
 		<Waypoint altitude="119" name="140 Lachen-Speyerdorf">
